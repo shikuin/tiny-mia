@@ -1,22 +1,26 @@
 tract-mia-axum
 
---- REQUIREMENT FOR PROJECT
+--- 
+## REQUIREMENT FOR PROJECT
 
 > Logger and initialization of model, server, packages (enviroment)
 > Auto-setup model by installation
 > TinyGPT-2 that procedes with tract.rs
 > Small server in Axum that will output\input of model
 > Auth setup (JWT token)
+> Structure with two big crates (not in one)
 
-
---- FOR THE FUTURE
+--- 
+## FOR THE FUTURE
 
 > Rewrite in gRPC 
 > Access to mia from no jwt, but another one
 > Tooling for loader of model (orchestrator)
 
---- TODOS (restructure todos based on REQUIREMENT FOR PROJECT) 
+--- 
+## TODOS (restructure todos based on REQUIREMENT FOR PROJECT) 
 
+> Organize mia and server, tiny-mia folder
 > Organize folders and files: From higher abstraction to Lower abstraction
 > Make a logger
 > Organize configuration: Where to store (container, auth)
@@ -27,7 +31,8 @@ tract-mia-axum
 > Handle loading model
 > Handle model generation and sending data
 
---- STRUCTURE OF PROJECT
+--- 
+## STRUCTURE OF PROJECT
 
 - main.rs -> setup, load and config
 
